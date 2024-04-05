@@ -38,6 +38,10 @@ services:
     # - roboshop
     depends_on:
     - catalogue
+    - user
+    - cart
+    - payment
+    - shipping
   
   redis:
    image: redis
