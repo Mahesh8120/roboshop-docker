@@ -64,7 +64,7 @@ services:
 
   mysql:
     image: mysql:v1
-    container_name: mysql\
+    container_name: mysql
     volumes:
      - source: mysql
        target: /var/lib/mysql
